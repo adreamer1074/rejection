@@ -1,0 +1,39 @@
+#yesButton, #noButton {
+  border-radius: 10px; /* 角丸 */
+  padding: 10px 30px; /* ボタンの余白 */
+  font-size: 16px; /* ボタンのテキストサイズ */
+  cursor: pointer; /* マウスオーバー時にポインター形状に */
+  outline: none; /* クリック時の枠線を削除 */
+  border: none; /* ボーダーを削除 */
+  transition: background-color 0.3s; /* 背景色の変化をスムーズに */
+}
+
+#yesButton {
+  background-color: #4CAF50; /* YESボタンの背景色 */
+  color: white; /* YESボタンのテキスト色 */
+}
+
+#noButton {
+  background-color: #f44336; /* NOボタンの背景色 */
+  color: white; /* NOボタンのテキスト色 */
+  margin-left: 20px;
+}
+
+#yesButton:hover {
+  background-color: #45a049; /* マウスオーバー時のYESボタンの背景色 */
+}
+
+#noButton:hover {
+  background-color: #d32f2f; /* マウスオーバー時のNOボタンの背景色 */
+}
+
+#yesButton:active {
+  background-color: #3e8e41; /* クリック時のYESボタンの背景色 */
+}
+
+#noButton:active {
+  background-color: #b71c1c; /* クリック時のNOボタンの背景色 */
+}
+    body{
+        background-color: antiquewhite;
+    }
